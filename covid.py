@@ -4,7 +4,7 @@ import kagglehub
 # Download dataset with latest version
 path = kagglehub.dataset_download("aditeloo/the-world-dataset-of-covid19")
 
-df = pd.read_csv("./owid-covid-data1.csv")
+df = pd.read_csv("./owid-covid-data.csv")
 
 # Initial exploration
 print(df.describe())
@@ -30,4 +30,5 @@ print(df.dtypes)
 df['date'] = pd.to_datetime(df['date'], errors='coerce')
 
 # Saving the cleaned file
+
 df.to_csv("covid_cleaned.csv", index=False)

@@ -44,7 +44,7 @@ This repository contains an interactive Power BI dashboard built using the Covid
 - Death % varied significantly across locations.
 - Cases followed clear waves over time → helps track policy impacts.
 
-## Contributing
+## Contributions
 - Feel free to fork, improve, add features or difficulty levels, and submit pull requests!
 
 ## License
